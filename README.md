@@ -13,15 +13,15 @@ python main_rasha.py --gpu 0 --embed_size 512 --hidden_dim 512 --num_layers 1 --
 ### Arguments
 
 <ul>
-  <li> `gpu` - Indicates GPU index
-  <li> `embed_size` - Embedding dimension of encoder module
-  <li> `hidden_dim` - Hidden Dimension in LSTM 
-  <li> `num_layers' - Number of layers in LSTM
-  <li> `batch_size` - Batch Size to train with
-  <li> `lr` - Learning rate of training
-  <li> `epochs` - Number of epochs to train the model
-  <li> `train` - If <b>True</b>, indicates to train the model from scratch, else loads saved checkpoints
-  <li> `train_enc` - If <b>True</b>, uses pre-trained CNN as encoder
-  <li> `bw` - Beam Width for Beam Search Algorithm
+  <li> ` gpu `  - Indicates GPU index
+  <li> embed_size - Embedding dimension of encoder module
+  <li> hidden_dim - Hidden Dimension in LSTM 
+  <li> num_layers - Number of layers in LSTM
+  <li> batch_size - Batch Size to train with
+  <li> lr - Learning rate of training
+  <li> epochs - Number of epochs to train the model
+  <li> train - If <b>True</b>, indicates to train the model from scratch, else loads saved checkpoints
+  <li> train_enc - If <b>True</b>, uses pre-trained CNN as encoder
+  <li> bw - Beam Width for Beam Search Algorithm
     
 </ul>
