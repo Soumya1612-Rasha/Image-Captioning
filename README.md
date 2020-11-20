@@ -13,7 +13,7 @@ python main_rasha.py --gpu 0 --embed_size 512 --hidden_dim 512 --num_layers 1 --
 ### Arguments
 
 <ul>
-  <li> ` gpu `  - Indicates GPU index
+  <li> ``` gpu ```  - Indicates GPU index
   <li> embed_size - Embedding dimension of encoder module
   <li> hidden_dim - Hidden Dimension in LSTM 
   <li> num_layers - Number of layers in LSTM
