@@ -25,3 +25,13 @@ python main_rasha.py --gpu 0 --embed_size 512 --hidden_dim 512 --num_layers 1 --
   <li> bw - Beam Width for Beam Search Algorithm
     
 </ul>
+
+### Results 
+
+For experimenting, an Italian caption dataset is used. Training images can be found [here](https://owncloud.iitd.ac.in/nextcloud/index.php/s/bpsRreMBSEAZyy7) and training captions are [here](https://owncloud.iitd.ac.in/nextcloud/index.php/s/ZiAsmexxADBcb3J). A SacreBleu score of 14.64 is obtained through evaluation on test data ([Testing images](https://owncloud.iitd.ac.in/nextcloud/index.php/s/eGZydAwPwrCygen), [Testing captions](https://owncloud.iitd.ac.in/nextcloud/index.php/s/8ZoDbDno7aiRBo7)) 
+
+
+
+
+### References
+* [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044). Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard Zemel, Yoshua Bengio. ICML 2015.
